@@ -1,0 +1,139 @@
+.body {
+  margin: 48px auto !important;
+  min-height: 80vh !important;
+}
+
+.jk p {
+  margin: 0 0 10px 0 !important;
+  padding: 0 !important;
+  clear: both !important;
+  vertical-align: baseline !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.carousel, .carousel-item {
+  width: 100% !important;
+  border-radius: 10px !important;
+}
+
+.seg {
+  width: 100% !important;
+  overflow-x: scroll !important;
+  white-space: nowrap !important;
+}
+
+.jk {
+  margin: 5% auto !important;
+}
+
+.ft, .lst {
+  width: 100% !important;
+  height: auto !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+}
+
+.ftt {
+  display: inline-block !important;
+  width: 25% !important;
+  vertical-align: top !important;
+}
+
+.fttt {
+  display: inline-block !important;
+  width: 75% !important;
+  vertical-align: top !important;
+  padding: 0 10px !important;
+}
+
+.seg button {
+  width: 100% !important;
+  border-radius: 30px !important;
+}
+
+.lst button {
+  border-radius: 30px !important;
+}
+
+
+.cll {
+  width: 31% !important;
+  height: auto !important;
+  border: 1px hidden !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  display: inline-block !important;
+  margin-right: 5px !important;
+}
+
+@media only screen and (min-width: 601px) {
+  
+  .ft {
+    width: 50% !important;
+    display: inline-block !important;
+    float: left !important;
+  }
+  
+  .cll {
+    width: 25% !important;
+  }
+  
+}
+
+.cll h6 {
+  border: 1px hidden !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  display: block !important;
+  padding: 5px !important;
+}
+
+.seg img, .lst img {
+  border-radius: 10px !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.footer {
+  width: 100% !important;
+  height: fit-content !important;
+  border: 1px hidden !important;
+  position: fixed !important;
+  bottom: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 0 !important;
+  overflow: hidden !important;
+}
+
+.footer ul {
+  width: 100% !important;
+  min-height: 50px !important;
+  border: 1px hidden !important;
+  clear: both !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  margin: 5px auto !important;
+}
+
+.footer li {
+  float: left !important;
+  display: inline-block !important;
+  width: 25% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  min-height: 1px !important;
+  border: 1px hidden !important;
+}
+
+.footer i {
+  margin: 5px auto !important;
+}
